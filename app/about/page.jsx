@@ -6,7 +6,7 @@ import { Poppins } from "next/font/google";
 
 const poppins = Poppins({
   weight: "600",
-  subsets: "latin",
+  subsets: ["latin"],
 });
 
 const About = () => {
