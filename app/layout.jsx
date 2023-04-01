@@ -1,6 +1,6 @@
 "use client";
 import "./globals.css";
-import { Bebas_Neue } from "@next/font/google";
+import { Bebas_Neue } from "next/font/google";
 import { Navbar } from "../components";
 import { Suspense } from "react";
 import Loading from "./loading";
