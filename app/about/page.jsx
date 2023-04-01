@@ -2,7 +2,7 @@ import { Button, SectionCard } from "../../components";
 import aboutPic from "../../public/aboutPic.svg";
 import Image from "next/image";
 
-import { Poppins } from "@next/font/google";
+import { Poppins } from "next/font/google";
 
 const poppins = Poppins({
   weight: "600",
@@ -24,7 +24,7 @@ const About = () => {
             </div>
             <div className="flex-between lg:items-start flex-col gap-3">
               <h1 className="text-xl my-2 sm:text-2xl md:text-3xl lg:text-4xl">
-                I’m develop user interface with React Js and some useful React
+                I am develop user interface with React Js and some useful React
                 package.
               </h1>
 
