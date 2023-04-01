@@ -31,7 +31,7 @@ const About = () => {
               <p
                 className={`text-sm leading-normal sm:text-md md:text-xl lg:text:2xl ${poppins.className}`}
               >
-                I'm a self-instructed programmer and one of the best features
+                I am a self-instructed programmer and one of the best features
                 about me is being quite flexible in communication with people in
                 almost every situations. Currently, I am learning and studying
                 the advance concepts of (Js,React) which will significantly
