@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { Button } from "../components";
-import proPic from "../public/proPic.svg";
+import proPic from "../public/proPic.jpg";
 import profileLineVector from "../public/profileLineVector.svg";
 
 export default function Home() {
@@ -20,7 +20,7 @@ export default function Home() {
         </div>
         <div className="flex-center flex-col gap-5">
           <div className="bg-white border-shadow rounded-sm w-[50%] lg:w-[80%]">
-            <Image src={proPic} alt="profile" className="w-full h-auto " />
+            <Image src={proPic} alt="profile" className="w-full h-auto" />
           </div>
           <div>
             <Image
